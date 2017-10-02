@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F101FF1F828AE80046080E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F101FE1F828AE80046080E /* AppDelegate.swift */; };
+		31F102011F828AE80046080E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102001F828AE80046080E /* FirstViewController.swift */; };
+		31F102031F828AE80046080E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102021F828AE80046080E /* SecondViewController.swift */; };
+		31F102061F828AE80046080E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F102041F828AE80046080E /* Main.storyboard */; };
+		31F102081F828AE80046080E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F102071F828AE80046080E /* Assets.xcassets */; };
+		31F1020B1F828AE80046080E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F102091F828AE80046080E /* LaunchScreen.storyboard */; };
+		31F102161F828AE80046080E /* bit_flyer_chart_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102151F828AE80046080E /* bit_flyer_chart_mvvmTests.swift */; };
+		31F102211F828AE80046080E /* bit_flyer_chart_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102201F828AE80046080E /* bit_flyer_chart_mvvmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31F102121F828AE80046080E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31F101F31F828AE80046080E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31F101FA1F828AE80046080E;
+			remoteInfo = "bit-flyer-chart-mvvm";
+		};
+		31F1021D1F828AE80046080E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31F101F31F828AE80046080E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31F101FA1F828AE80046080E;
+			remoteInfo = "bit-flyer-chart-mvvm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31F101FB1F828AE80046080E /* bit-flyer-chart-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bit-flyer-chart-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F101FE1F828AE80046080E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31F102001F828AE80046080E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		31F102021F828AE80046080E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		31F102051F828AE80046080E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31F102071F828AE80046080E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31F1020A1F828AE80046080E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31F1020C1F828AE80046080E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F102111F828AE80046080E /* bit-flyer-chart-mvvmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bit-flyer-chart-mvvmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F102151F828AE80046080E /* bit_flyer_chart_mvvmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bit_flyer_chart_mvvmTests.swift; sourceTree = "<group>"; };
+		31F102171F828AE80046080E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F1021C1F828AE80046080E /* bit-flyer-chart-mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bit-flyer-chart-mvvmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F102201F828AE80046080E /* bit_flyer_chart_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bit_flyer_chart_mvvmUITests.swift; sourceTree = "<group>"; };
+		31F102221F828AE80046080E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F101F81F828AE80046080E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F1020E1F828AE80046080E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F102191F828AE80046080E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31F101F21F828AE80046080E = {
+			isa = PBXGroup;
+			children = (
+				31F101FD1F828AE80046080E /* bit-flyer-chart-mvvm */,
+				31F102141F828AE80046080E /* bit-flyer-chart-mvvmTests */,
+				31F1021F1F828AE80046080E /* bit-flyer-chart-mvvmUITests */,
+				31F101FC1F828AE80046080E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31F101FC1F828AE80046080E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31F101FB1F828AE80046080E /* bit-flyer-chart-mvvm.app */,
+				31F102111F828AE80046080E /* bit-flyer-chart-mvvmTests.xctest */,
+				31F1021C1F828AE80046080E /* bit-flyer-chart-mvvmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F101FD1F828AE80046080E /* bit-flyer-chart-mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				31F101FE1F828AE80046080E /* AppDelegate.swift */,
+				31F102001F828AE80046080E /* FirstViewController.swift */,
+				31F102021F828AE80046080E /* SecondViewController.swift */,
+				31F102041F828AE80046080E /* Main.storyboard */,
+				31F102071F828AE80046080E /* Assets.xcassets */,
+				31F102091F828AE80046080E /* LaunchScreen.storyboard */,
+				31F1020C1F828AE80046080E /* Info.plist */,
+			);
+			path = "bit-flyer-chart-mvvm";
+			sourceTree = "<group>";
+		};
+		31F102141F828AE80046080E /* bit-flyer-chart-mvvmTests */ = {
+			isa = PBXGroup;
+			children = (
+				31F102151F828AE80046080E /* bit_flyer_chart_mvvmTests.swift */,
+				31F102171F828AE80046080E /* Info.plist */,
+			);
+			path = "bit-flyer-chart-mvvmTests";
+			sourceTree = "<group>";
+		};
+		31F1021F1F828AE80046080E /* bit-flyer-chart-mvvmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31F102201F828AE80046080E /* bit_flyer_chart_mvvmUITests.swift */,
+				31F102221F828AE80046080E /* Info.plist */,
+			);
+			path = "bit-flyer-chart-mvvmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31F101FA1F828AE80046080E /* bit-flyer-chart-mvvm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F102251F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvm" */;
+			buildPhases = (
+				31F101F71F828AE80046080E /* Sources */,
+				31F101F81F828AE80046080E /* Frameworks */,
+				31F101F91F828AE80046080E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bit-flyer-chart-mvvm";
+			productName = "bit-flyer-chart-mvvm";
+			productReference = 31F101FB1F828AE80046080E /* bit-flyer-chart-mvvm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31F102101F828AE80046080E /* bit-flyer-chart-mvvmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F102281F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvmTests" */;
+			buildPhases = (
+				31F1020D1F828AE80046080E /* Sources */,
+				31F1020E1F828AE80046080E /* Frameworks */,
+				31F1020F1F828AE80046080E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31F102131F828AE80046080E /* PBXTargetDependency */,
+			);
+			name = "bit-flyer-chart-mvvmTests";
+			productName = "bit-flyer-chart-mvvmTests";
+			productReference = 31F102111F828AE80046080E /* bit-flyer-chart-mvvmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31F1021B1F828AE80046080E /* bit-flyer-chart-mvvmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F1022B1F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvmUITests" */;
+			buildPhases = (
+				31F102181F828AE80046080E /* Sources */,
+				31F102191F828AE80046080E /* Frameworks */,
+				31F1021A1F828AE80046080E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31F1021E1F828AE80046080E /* PBXTargetDependency */,
+			);
+			name = "bit-flyer-chart-mvvmUITests";
+			productName = "bit-flyer-chart-mvvmUITests";
+			productReference = 31F1021C1F828AE80046080E /* bit-flyer-chart-mvvmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31F101F31F828AE80046080E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.example;
+				TargetAttributes = {
+					31F101FA1F828AE80046080E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					31F102101F828AE80046080E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31F101FA1F828AE80046080E;
+					};
+					31F1021B1F828AE80046080E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31F101FA1F828AE80046080E;
+					};
+				};
+			};
+			buildConfigurationList = 31F101F61F828AE80046080E /* Build configuration list for PBXProject "bit-flyer-chart-mvvm" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31F101F21F828AE80046080E;
+			productRefGroup = 31F101FC1F828AE80046080E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31F101FA1F828AE80046080E /* bit-flyer-chart-mvvm */,
+				31F102101F828AE80046080E /* bit-flyer-chart-mvvmTests */,
+				31F1021B1F828AE80046080E /* bit-flyer-chart-mvvmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31F101F91F828AE80046080E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F1020B1F828AE80046080E /* LaunchScreen.storyboard in Resources */,
+				31F102081F828AE80046080E /* Assets.xcassets in Resources */,
+				31F102061F828AE80046080E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F1020F1F828AE80046080E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F1021A1F828AE80046080E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31F101F71F828AE80046080E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F102031F828AE80046080E /* SecondViewController.swift in Sources */,
+				31F101FF1F828AE80046080E /* AppDelegate.swift in Sources */,
+				31F102011F828AE80046080E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F1020D1F828AE80046080E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F102161F828AE80046080E /* bit_flyer_chart_mvvmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F102181F828AE80046080E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F102211F828AE80046080E /* bit_flyer_chart_mvvmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31F102131F828AE80046080E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31F101FA1F828AE80046080E /* bit-flyer-chart-mvvm */;
+			targetProxy = 31F102121F828AE80046080E /* PBXContainerItemProxy */;
+		};
+		31F1021E1F828AE80046080E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31F101FA1F828AE80046080E /* bit-flyer-chart-mvvm */;
+			targetProxy = 31F1021D1F828AE80046080E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31F102041F828AE80046080E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F102051F828AE80046080E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31F102091F828AE80046080E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F1020A1F828AE80046080E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31F102231F828AE80046080E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31F102241F828AE80046080E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31F102261F828AE80046080E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bit-flyer-chart-mvvm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.bit-flyer-chart-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31F102271F828AE80046080E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bit-flyer-chart-mvvm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.bit-flyer-chart-mvvm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31F102291F828AE80046080E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bit-flyer-chart-mvvmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.bit-flyer-chart-mvvmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bit-flyer-chart-mvvm.app/bit-flyer-chart-mvvm";
+			};
+			name = Debug;
+		};
+		31F1022A1F828AE80046080E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bit-flyer-chart-mvvmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.bit-flyer-chart-mvvmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bit-flyer-chart-mvvm.app/bit-flyer-chart-mvvm";
+			};
+			name = Release;
+		};
+		31F1022C1F828AE80046080E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bit-flyer-chart-mvvmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.bit-flyer-chart-mvvmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bit-flyer-chart-mvvm";
+			};
+			name = Debug;
+		};
+		31F1022D1F828AE80046080E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bit-flyer-chart-mvvmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.bit-flyer-chart-mvvmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bit-flyer-chart-mvvm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31F101F61F828AE80046080E /* Build configuration list for PBXProject "bit-flyer-chart-mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F102231F828AE80046080E /* Debug */,
+				31F102241F828AE80046080E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F102251F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F102261F828AE80046080E /* Debug */,
+				31F102271F828AE80046080E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F102281F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F102291F828AE80046080E /* Debug */,
+				31F1022A1F828AE80046080E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F1022B1F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F1022C1F828AE80046080E /* Debug */,
+				31F1022D1F828AE80046080E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31F101F31F828AE80046080E /* Project object */;
+}
