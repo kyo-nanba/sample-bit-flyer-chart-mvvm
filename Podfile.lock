@@ -1,0 +1,52 @@
+PODS:
+  - RxBlocking (4.0.0-beta.1):
+    - RxSwift (~> 4.0.0-beta.1)
+  - RxCocoa (4.0.0-beta.1):
+    - RxSwift (~> 4.0.0-beta.1)
+  - RxSwift (4.0.0-beta.1)
+  - RxTest (4.0.0-beta.1):
+    - RxSwift (~> 4.0.0-beta.1)
+
+DEPENDENCIES:
+  - RxBlocking (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
+  - RxTest (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
+
+EXTERNAL SOURCES:
+  RxBlocking:
+    :branch: rxswift4.0-swift4.0
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxCocoa:
+    :branch: rxswift4.0-swift4.0
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :branch: rxswift4.0-swift4.0
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxTest:
+    :branch: rxswift4.0-swift4.0
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+CHECKOUT OPTIONS:
+  RxBlocking:
+    :commit: aacfcc894bd3bc3ea1b03d483720973ea0e02905
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxCocoa:
+    :commit: aacfcc894bd3bc3ea1b03d483720973ea0e02905
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :commit: aacfcc894bd3bc3ea1b03d483720973ea0e02905
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxTest:
+    :commit: aacfcc894bd3bc3ea1b03d483720973ea0e02905
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+SPEC CHECKSUMS:
+  RxBlocking: d5f5e62ff9ac07641a8d0214d9a8b00f1750aae5
+  RxCocoa: 009b86b0b158d4a7e4a5fc29bbdc0688c44fa3bb
+  RxSwift: 9488787dfac649ffc1c4fddf3a3b4d6823d0b392
+  RxTest: d6a7b38f5cae134999459771e6ae1c9308b76ee4
+
+PODFILE CHECKSUM: 67192830b5d2aa50d365d13120c0c59ff23a877b
+
+COCOAPODS: 1.3.1
