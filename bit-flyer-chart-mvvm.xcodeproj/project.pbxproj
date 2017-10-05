@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0AF80252831ACE320DD1EA1D /* Pods_bit_flyer_chart_mvvmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FD19F33C1B4F410DDEE13D /* Pods_bit_flyer_chart_mvvmUITests.framework */; };
 		1D854EE475D8BEFA1129B7B1 /* Pods_bit_flyer_chart_mvvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93176C1E34AD7EF3C479DDA4 /* Pods_bit_flyer_chart_mvvm.framework */; };
+		311AE6651F862F6E0063492A /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AE6641F862F6E0063492A /* ConfigViewController.swift */; };
+		311AE6671F8649870063492A /* ThemeColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AE6661F8649870063492A /* ThemeColorViewController.swift */; };
+		311AE6691F8650220063492A /* ThemeColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AE6681F8650220063492A /* ThemeColorTableViewCell.swift */; };
 		31F101FF1F828AE80046080E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F101FE1F828AE80046080E /* AppDelegate.swift */; };
 		31F102011F828AE80046080E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102001F828AE80046080E /* FirstViewController.swift */; };
 		31F102031F828AE80046080E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102021F828AE80046080E /* SecondViewController.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		311AE6641F862F6E0063492A /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		311AE6661F8649870063492A /* ThemeColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorViewController.swift; sourceTree = "<group>"; };
+		311AE6681F8650220063492A /* ThemeColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorTableViewCell.swift; sourceTree = "<group>"; };
 		31F101FB1F828AE80046080E /* bit-flyer-chart-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bit-flyer-chart-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F101FE1F828AE80046080E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F102001F828AE80046080E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +125,9 @@
 				31F101FE1F828AE80046080E /* AppDelegate.swift */,
 				31F102001F828AE80046080E /* FirstViewController.swift */,
 				31F102021F828AE80046080E /* SecondViewController.swift */,
+				311AE6641F862F6E0063492A /* ConfigViewController.swift */,
+				311AE6661F8649870063492A /* ThemeColorViewController.swift */,
+				311AE6681F8650220063492A /* ThemeColorTableViewCell.swift */,
 				31F102041F828AE80046080E /* Main.storyboard */,
 				31F102071F828AE80046080E /* Assets.xcassets */,
 				31F102091F828AE80046080E /* LaunchScreen.storyboard */,
@@ -477,8 +486,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311AE6671F8649870063492A /* ThemeColorViewController.swift in Sources */,
 				31F102031F828AE80046080E /* SecondViewController.swift in Sources */,
 				31F101FF1F828AE80046080E /* AppDelegate.swift in Sources */,
+				311AE6691F8650220063492A /* ThemeColorTableViewCell.swift in Sources */,
+				311AE6651F862F6E0063492A /* ConfigViewController.swift in Sources */,
 				31F102011F828AE80046080E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
