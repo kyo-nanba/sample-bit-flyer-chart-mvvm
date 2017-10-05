@@ -1,2 +1,6 @@
-Carthage/Checkouts
-Carthage/Build
+# Bundler
+vendor
+.bundle
+
+# CocoaPods
+Pods/
