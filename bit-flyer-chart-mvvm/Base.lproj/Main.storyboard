@@ -178,10 +178,10 @@
             </objects>
             <point key="canvasLocation" x="1606" y="394"/>
         </scene>
-        <!--Theme Color View Controller-->
+        <!--テーマカラーを選ぶ-->
         <scene sceneID="aQk-rZ-WjG">
             <objects>
-                <tableViewController id="89I-Bq-gEM" customClass="ThemeColorViewController" customModule="bit_flyer_chart_mvvm" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="テーマカラーを選ぶ" id="89I-Bq-gEM" customClass="ThemeColorViewController" customModule="bit_flyer_chart_mvvm" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="v3r-yj-wKf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

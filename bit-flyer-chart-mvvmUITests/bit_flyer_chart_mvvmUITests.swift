@@ -28,9 +28,18 @@ class bit_flyer_chart_mvvmUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testTransitionToChangeThemeColorView() {
+        let app = XCUIApplication()
+        let configTabbarButton = app.tabBars.buttons["config"]
+        XCTAssertTrue(configTabbarButton.exists)
+        
+        configTabbarButton.tap()
+        let changeThemeCell = app.tables.cells.staticTexts["テーマカラーの変更"]
+        XCTAssertTrue(changeThemeCell.exists)
+        
+        changeThemeCell.tap()
+        let screenTitle = app.navigationBars["テーマカラーを選ぶ"]
+        
+        XCTAssertTrue(screenTitle.exists)
     }
-    
 }
