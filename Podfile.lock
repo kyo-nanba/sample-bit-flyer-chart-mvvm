@@ -1,13 +1,17 @@
 PODS:
-  - RxBlocking (4.0.0-beta.1):
-    - RxSwift (~> 4.0.0-beta.1)
-  - RxCocoa (4.0.0-beta.1):
-    - RxSwift (~> 4.0.0-beta.1)
-  - RxSwift (4.0.0-beta.1)
-  - RxTest (4.0.0-beta.1):
-    - RxSwift (~> 4.0.0-beta.1)
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
+  - RxBlocking (4.0.0-rc.0):
+    - RxSwift (~> 4.0.0-rc.0)
+  - RxCocoa (4.0.0-rc.0):
+    - RxSwift (~> 4.0.0-rc.0)
+  - RxSwift (4.0.0-rc.0)
+  - RxTest (4.0.0-rc.0):
+    - RxSwift (~> 4.0.0-rc.0)
 
 DEPENDENCIES:
+  - Nimble
+  - Quick
   - RxBlocking (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
   - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
   - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, branch `rxswift4.0-swift4.0`)
@@ -29,24 +33,26 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   RxBlocking:
-    :commit: aacfcc894bd3bc3ea1b03d483720973ea0e02905
+    :commit: 61261f2ee97ace3e08713921dd9406669b9debee
     :git: https://github.com/ReactiveX/RxSwift.git
   RxCocoa:
-    :commit: aacfcc894bd3bc3ea1b03d483720973ea0e02905
+    :commit: 61261f2ee97ace3e08713921dd9406669b9debee
     :git: https://github.com/ReactiveX/RxSwift.git
   RxSwift:
-    :commit: aacfcc894bd3bc3ea1b03d483720973ea0e02905
+    :commit: 61261f2ee97ace3e08713921dd9406669b9debee
     :git: https://github.com/ReactiveX/RxSwift.git
   RxTest:
-    :commit: aacfcc894bd3bc3ea1b03d483720973ea0e02905
+    :commit: 61261f2ee97ace3e08713921dd9406669b9debee
     :git: https://github.com/ReactiveX/RxSwift.git
 
 SPEC CHECKSUMS:
-  RxBlocking: d5f5e62ff9ac07641a8d0214d9a8b00f1750aae5
-  RxCocoa: 009b86b0b158d4a7e4a5fc29bbdc0688c44fa3bb
-  RxSwift: 9488787dfac649ffc1c4fddf3a3b4d6823d0b392
-  RxTest: d6a7b38f5cae134999459771e6ae1c9308b76ee4
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  RxBlocking: 12419340c263e0acaf505541281c84dcfc0abfaf
+  RxCocoa: 58841348f4c6e6f6cd244522c16a6b7df5008956
+  RxSwift: f0ff3c78e1f71a7d3506defde0b79c72fe39bac3
+  RxTest: beb3b29112251fc4ef041f87477fbc0b826bb1cd
 
-PODFILE CHECKSUM: 67192830b5d2aa50d365d13120c0c59ff23a877b
+PODFILE CHECKSUM: 5550e582855e27a002f9fedb8a3a1aa14d6c4c53
 
 COCOAPODS: 1.3.1
