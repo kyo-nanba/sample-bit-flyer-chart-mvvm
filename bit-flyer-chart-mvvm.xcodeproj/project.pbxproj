@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AF80252831ACE320DD1EA1D /* Pods_bit_flyer_chart_mvvmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FD19F33C1B4F410DDEE13D /* Pods_bit_flyer_chart_mvvmUITests.framework */; };
+		1D854EE475D8BEFA1129B7B1 /* Pods_bit_flyer_chart_mvvm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93176C1E34AD7EF3C479DDA4 /* Pods_bit_flyer_chart_mvvm.framework */; };
+		311AE6651F862F6E0063492A /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AE6641F862F6E0063492A /* ConfigViewController.swift */; };
+		311AE6671F8649870063492A /* ThemeColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AE6661F8649870063492A /* ThemeColorViewController.swift */; };
+		311AE6691F8650220063492A /* ThemeColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AE6681F8650220063492A /* ThemeColorTableViewCell.swift */; };
 		31F101FF1F828AE80046080E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F101FE1F828AE80046080E /* AppDelegate.swift */; };
 		31F102011F828AE80046080E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102001F828AE80046080E /* FirstViewController.swift */; };
 		31F102031F828AE80046080E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102021F828AE80046080E /* SecondViewController.swift */; };
@@ -15,6 +20,7 @@
 		31F1020B1F828AE80046080E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F102091F828AE80046080E /* LaunchScreen.storyboard */; };
 		31F102161F828AE80046080E /* bit_flyer_chart_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102151F828AE80046080E /* bit_flyer_chart_mvvmTests.swift */; };
 		31F102211F828AE80046080E /* bit_flyer_chart_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F102201F828AE80046080E /* bit_flyer_chart_mvvmUITests.swift */; };
+		D2EF84ADE2821B16D9E7CE51 /* Pods_bit_flyer_chart_mvvmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CA627E058058691DEC0806 /* Pods_bit_flyer_chart_mvvmTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		311AE6641F862F6E0063492A /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		311AE6661F8649870063492A /* ThemeColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorViewController.swift; sourceTree = "<group>"; };
+		311AE6681F8650220063492A /* ThemeColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorTableViewCell.swift; sourceTree = "<group>"; };
 		31F101FB1F828AE80046080E /* bit-flyer-chart-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bit-flyer-chart-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F101FE1F828AE80046080E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F102001F828AE80046080E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		31F1021C1F828AE80046080E /* bit-flyer-chart-mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bit-flyer-chart-mvvmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F102201F828AE80046080E /* bit_flyer_chart_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bit_flyer_chart_mvvmUITests.swift; sourceTree = "<group>"; };
 		31F102221F828AE80046080E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA48DAA680A9149F4239077 /* Pods-bit-flyer-chart-mvvm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bit-flyer-chart-mvvm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bit-flyer-chart-mvvm/Pods-bit-flyer-chart-mvvm.debug.xcconfig"; sourceTree = "<group>"; };
+		82EE4E4D288F65589309630B /* Pods-bit-flyer-chart-mvvm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bit-flyer-chart-mvvm.release.xcconfig"; path = "Pods/Target Support Files/Pods-bit-flyer-chart-mvvm/Pods-bit-flyer-chart-mvvm.release.xcconfig"; sourceTree = "<group>"; };
+		84FD19F33C1B4F410DDEE13D /* Pods_bit_flyer_chart_mvvmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bit_flyer_chart_mvvmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93176C1E34AD7EF3C479DDA4 /* Pods_bit_flyer_chart_mvvm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bit_flyer_chart_mvvm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B46D9EF9B6912EED8A9E0B /* Pods-bit-flyer-chart-mvvmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bit-flyer-chart-mvvmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bit-flyer-chart-mvvmTests/Pods-bit-flyer-chart-mvvmTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5CA627E058058691DEC0806 /* Pods_bit_flyer_chart_mvvmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bit_flyer_chart_mvvmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF54AE35BE2D59759559EB1A /* Pods-bit-flyer-chart-mvvmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bit-flyer-chart-mvvmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bit-flyer-chart-mvvmUITests/Pods-bit-flyer-chart-mvvmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E44042C40BBA2028FFCFC875 /* Pods-bit-flyer-chart-mvvmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bit-flyer-chart-mvvmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bit-flyer-chart-mvvmUITests/Pods-bit-flyer-chart-mvvmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE9FA61A335BC14668569134 /* Pods-bit-flyer-chart-mvvmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bit-flyer-chart-mvvmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bit-flyer-chart-mvvmTests/Pods-bit-flyer-chart-mvvmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D854EE475D8BEFA1129B7B1 /* Pods_bit_flyer_chart_mvvm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2EF84ADE2821B16D9E7CE51 /* Pods_bit_flyer_chart_mvvmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF80252831ACE320DD1EA1D /* Pods_bit_flyer_chart_mvvmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				31F102141F828AE80046080E /* bit-flyer-chart-mvvmTests */,
 				31F1021F1F828AE80046080E /* bit-flyer-chart-mvvmUITests */,
 				31F101FC1F828AE80046080E /* Products */,
+				D0842D3FEC87B3512C62A0A0 /* Pods */,
+				BE23A7BCC824FFBA3D58915C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +125,9 @@
 				31F101FE1F828AE80046080E /* AppDelegate.swift */,
 				31F102001F828AE80046080E /* FirstViewController.swift */,
 				31F102021F828AE80046080E /* SecondViewController.swift */,
+				311AE6641F862F6E0063492A /* ConfigViewController.swift */,
+				311AE6661F8649870063492A /* ThemeColorViewController.swift */,
+				311AE6681F8650220063492A /* ThemeColorTableViewCell.swift */,
 				31F102041F828AE80046080E /* Main.storyboard */,
 				31F102071F828AE80046080E /* Assets.xcassets */,
 				31F102091F828AE80046080E /* LaunchScreen.storyboard */,
@@ -128,6 +154,29 @@
 			path = "bit-flyer-chart-mvvmUITests";
 			sourceTree = "<group>";
 		};
+		BE23A7BCC824FFBA3D58915C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93176C1E34AD7EF3C479DDA4 /* Pods_bit_flyer_chart_mvvm.framework */,
+				A5CA627E058058691DEC0806 /* Pods_bit_flyer_chart_mvvmTests.framework */,
+				84FD19F33C1B4F410DDEE13D /* Pods_bit_flyer_chart_mvvmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0842D3FEC87B3512C62A0A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CA48DAA680A9149F4239077 /* Pods-bit-flyer-chart-mvvm.debug.xcconfig */,
+				82EE4E4D288F65589309630B /* Pods-bit-flyer-chart-mvvm.release.xcconfig */,
+				FE9FA61A335BC14668569134 /* Pods-bit-flyer-chart-mvvmTests.debug.xcconfig */,
+				94B46D9EF9B6912EED8A9E0B /* Pods-bit-flyer-chart-mvvmTests.release.xcconfig */,
+				E44042C40BBA2028FFCFC875 /* Pods-bit-flyer-chart-mvvmUITests.debug.xcconfig */,
+				BF54AE35BE2D59759559EB1A /* Pods-bit-flyer-chart-mvvmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31F102251F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvm" */;
 			buildPhases = (
+				D277B3CFA8CA3E4BC406B30A /* [CP] Check Pods Manifest.lock */,
 				31F101F71F828AE80046080E /* Sources */,
 				31F101F81F828AE80046080E /* Frameworks */,
 				31F101F91F828AE80046080E /* Resources */,
+				476A8A8EF5383E75921749F0 /* [CP] Embed Pods Frameworks */,
+				2A197B4C4E7681C3D08E5673 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31F102281F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvmTests" */;
 			buildPhases = (
+				58AE48F0B84B692565D4CB14 /* [CP] Check Pods Manifest.lock */,
 				31F1020D1F828AE80046080E /* Sources */,
 				31F1020E1F828AE80046080E /* Frameworks */,
 				31F1020F1F828AE80046080E /* Resources */,
+				71720E08150AB976AF5B794D /* [CP] Embed Pods Frameworks */,
+				EAF1D2FEB695C927E25FC384 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31F1022B1F828AE80046080E /* Build configuration list for PBXNativeTarget "bit-flyer-chart-mvvmUITests" */;
 			buildPhases = (
+				ED622DEFFF2469DE8AAD9EA5 /* [CP] Check Pods Manifest.lock */,
 				31F102181F828AE80046080E /* Sources */,
 				31F102191F828AE80046080E /* Frameworks */,
 				31F1021A1F828AE80046080E /* Resources */,
+				ACB968681643E56661C8ACD2 /* [CP] Embed Pods Frameworks */,
+				3A93CCC48D52D87966341863 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +315,190 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A197B4C4E7681C3D08E5673 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvm/Pods-bit-flyer-chart-mvvm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A93CCC48D52D87966341863 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvmUITests/Pods-bit-flyer-chart-mvvmUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		476A8A8EF5383E75921749F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvm/Pods-bit-flyer-chart-mvvm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvm/Pods-bit-flyer-chart-mvvm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58AE48F0B84B692565D4CB14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bit-flyer-chart-mvvmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71720E08150AB976AF5B794D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvmTests/Pods-bit-flyer-chart-mvvmTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvmTests/Pods-bit-flyer-chart-mvvmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB968681643E56661C8ACD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvmUITests/Pods-bit-flyer-chart-mvvmUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvmUITests/Pods-bit-flyer-chart-mvvmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D277B3CFA8CA3E4BC406B30A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bit-flyer-chart-mvvm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF1D2FEB695C927E25FC384 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bit-flyer-chart-mvvmTests/Pods-bit-flyer-chart-mvvmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED622DEFFF2469DE8AAD9EA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bit-flyer-chart-mvvmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31F101F71F828AE80046080E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311AE6671F8649870063492A /* ThemeColorViewController.swift in Sources */,
 				31F102031F828AE80046080E /* SecondViewController.swift in Sources */,
 				31F101FF1F828AE80046080E /* AppDelegate.swift in Sources */,
+				311AE6691F8650220063492A /* ThemeColorTableViewCell.swift in Sources */,
+				311AE6651F862F6E0063492A /* ConfigViewController.swift in Sources */,
 				31F102011F828AE80046080E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,7 +663,9 @@
 		};
 		31F102261F828AE80046080E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA48DAA680A9149F4239077 /* Pods-bit-flyer-chart-mvvm.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "bit-flyer-chart-mvvm/Info.plist";
@@ -442,7 +679,9 @@
 		};
 		31F102271F828AE80046080E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EE4E4D288F65589309630B /* Pods-bit-flyer-chart-mvvm.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "bit-flyer-chart-mvvm/Info.plist";
@@ -456,8 +695,9 @@
 		};
 		31F102291F828AE80046080E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9FA61A335BC14668569134 /* Pods-bit-flyer-chart-mvvmTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "bit-flyer-chart-mvvmTests/Info.plist";
@@ -472,8 +712,9 @@
 		};
 		31F1022A1F828AE80046080E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B46D9EF9B6912EED8A9E0B /* Pods-bit-flyer-chart-mvvmTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "bit-flyer-chart-mvvmTests/Info.plist";
@@ -488,8 +729,9 @@
 		};
 		31F1022C1F828AE80046080E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44042C40BBA2028FFCFC875 /* Pods-bit-flyer-chart-mvvmUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "bit-flyer-chart-mvvmUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -503,8 +745,9 @@
 		};
 		31F1022D1F828AE80046080E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF54AE35BE2D59759559EB1A /* Pods-bit-flyer-chart-mvvmUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "bit-flyer-chart-mvvmUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
